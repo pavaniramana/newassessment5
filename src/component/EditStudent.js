@@ -75,8 +75,8 @@ const EditStudent = () => {
                 <input className="batch1" id="Batch" type={'text'} name="Batch" value={Batch} onChange={handleChange4}/> 
                 </div>
                 <div>
-                    <NavLink to="/students" className='cancel'>Cancel</NavLink>
-                    <NavLink to="/students" onClick={handleAddClick} className='click'>Update</NavLink>
+                    <NavLink to="/student" className='cancel'>Cancel</NavLink>
+                    <NavLink to="/student" onClick={handleAddClick} className='click'>Update</NavLink>
                 </div>
             </div>
         </div>
